@@ -1,3 +1,3 @@
-menu.php
-menu.php
-Hello world
+<?php
+echo "Hello world";
+?>
