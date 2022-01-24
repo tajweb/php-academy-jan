@@ -1,35 +1,34 @@
 <?php
 /*
-Ингредиенты для «Тефтели из кальмаров»:
-Сок томатный — 1 стак.
-Масло растительное — 2 ст. л.
-Яйцо куриное — 1 шт
-Мука пшеничная / Мука — 3 ст. л.
-Рис (вареный) — 150 г
-Лук репчатый — 3 шт
-Кальмар (очищенный) — 600 г
-Соль (по вкусу)
-Перец черный (молотый, по вкусу)
+Tomato juice - 1 cup
+Vegetable oil - 2 tablespoons
+Chicken egg - 1 piece
+Wheat flour / Flour - 3 tablespoons
+Rice (boiled) - 150 grams
+Onion - 3 pieces
+Squid (peeled) - 600 grams
+Salt (to taste)
+Black pepper (ground, to taste)
 
-Время приготовления: 25 минут
-Количество порций: 8
+Cooking time: 25 minutes
+Servings: 8
 */
-function cook_tefteli_iz_kalmara (
-    int $sok_tomatniy, 
-    int $maslo, 
-    int $yaytso, 
-    int $muka, 
-    int $ris, 
-    int $luk, 
-    int $kalmar)
+function cookSquidMeatballs (
+    int $Tomato_juice, 
+    int $Vegetable_oil, 
+    int $egg, 
+    int $Flour, 
+    int $Rice, 
+    int $Onion, 
+    int $Squid)
     {
-echo 
-"$kalmar г. кальмары и $luk шт. лук нужно очистить и нарезать не очень мелко. И пропустить через мясорубку. <br> 
-Добавьте $ris г. вареный рис, $yaytso шт. яйцо, соль и перец. Хорошо перемешайте.<br>
-Из фарша сформуйте шарики и запанируйте их в $muka ст. л. муке. Обжарьте на $maslo ст.л. растительном масле 
-со всех сторон до золотистого цвета.<br>
-Затем залейте $sok_tomatniy стак. томатным соком и потушите 10-15 минут.<br>
-На гарнир - картофельное пюре... и необычный вкусный ужин готов! Приятного аппетита!";
-}
-cook_tefteli_iz_kalmara(1,2,1,3,150,3,600);
+        echo 
+        "1. $Squid grams of squid and $Onion onions need to be peeled and cut not very finely.
+         2. And pass through a meat grinder.
+         3. Add $Rice grams of boiled rice, $egg egg, salt and pepper. Mix well.
+         4. Shape the minced meat into balls and bread them in $Flour tablespoons of flour. Fry in $Vegetable_oil tablespoons vegetable oil on all sides until golden brown.
+         5. Then pour $Tomato_juice glass of tomato juice and simmer for 10-15 minutes.
+         Garnish with mashed potatoes... and an unusual delicious dinner is ready! Bon Appetit!";
+    }
+cookSquidMeatballs(1, 2, 1, 3, 150, 3, 600);
 ?>
