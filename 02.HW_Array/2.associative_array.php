@@ -1,18 +1,5 @@
 <?php
-//First task
-$str_fruits = "grapes, apples, bananas, lemon";
-$str_vegetables = "cucumber, potato, broccoli, tomato";
-
-$arr_fruits = explode(", ", $str_fruits);
-$arr_vegetables = explode (", ", $str_vegetables);
-
-$merged = array_merge($arr_fruits, $arr_vegetables);
-
-foreach ($merged as $item)
-    echo $item . "<br/>";
-
-//Second task
-echo "<hr><h3>Fruits</h3>";
+echo "<h3>Fruits</h3>";
 $arr_fruits = [
     [
         'name' => 'grapes',
